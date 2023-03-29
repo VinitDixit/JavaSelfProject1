@@ -1,6 +1,4 @@
-import TestLearn.RuntimePoly.Bank;
-import TestLearn.RuntimePoly.ICICI;
-import TestLearn.RuntimePoly.SBI;
+package TestLearn.RuntimePoly;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class Main {
         Bank b2= new SBI();
         System.out.println("Bank SBI rate of interest::"+b2.getRateOfInterest());
 
-       // ICICI c= new Bank(); chicld class reference cannot refer to parent class object
+        // ICICI c= new Bank(); chicld class reference cannot refer to parent class object
 
 
     }

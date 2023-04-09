@@ -21,9 +21,16 @@ public class Main {
 
         int array[]= new int[]{1,2,3,4};
         MissingNumber(array,5);
+        int array1[]= new int[]{1,2,3,4,5};
+        maxProfit(array1);
 
     }
 
+    /**
+     * find missing number in array
+     * @param array
+     * @param n
+     */
     static void MissingNumber(int array[], int n) {
         // Your Code Here
         if(n==2){
@@ -45,6 +52,22 @@ public class Main {
         System.out.println("sum number::"+sum);
         int missingNum=actualSum-sum;
         System.out.println("Missing number::"+missingNum);
+    }
 
+    /**
+     * Find max profit in array
+     * @param prices
+     * @return
+     */
+    public static int maxProfit(int[] prices) {
+        int profit = 0;
+        for(int i = 1; i<prices.length; i++){
+            if(prices[i]>prices[i-1]){
+                int diff = prices[i]-prices[i-1];
+                profit=profit+diff;
+            }
+        }
+        System.out.println("Max profit::"+profit);
+        return profit;
     }
 }

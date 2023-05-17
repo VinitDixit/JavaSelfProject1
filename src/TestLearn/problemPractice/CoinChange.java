@@ -1,4 +1,4 @@
-package TestLearn;
+package TestLearn.problemPractice;
 
 public class CoinChange {
     public static void main(String[] args) {

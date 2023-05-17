@@ -50,7 +50,7 @@ public class DoubleStack {
     public int pop2(){
         if(top2<capacity){
             int x=arr[top2];
-            top1++;
+            top2++;
             return x;
         }else{
             System.out.println("Stack2 is empty");

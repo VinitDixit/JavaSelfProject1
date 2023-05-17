@@ -1,8 +1,7 @@
-package TestLearn.IntervalTest;
+package TestLearn.problemPractice.IntervalTest;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.Map;
 
 public class TestClass {
     public static void main(String[] args) {

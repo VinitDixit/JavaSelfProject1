@@ -1,4 +1,4 @@
-package TestLearn;
+package TestLearn.problemPractice;
 
 public class ReverseNum {
     public static void main(String[] args) {

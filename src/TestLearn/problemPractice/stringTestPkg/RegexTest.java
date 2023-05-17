@@ -1,4 +1,4 @@
-package TestLearn.stringTestPkg;
+package TestLearn.problemPractice.stringTestPkg;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,4 +1,4 @@
-package TestLearn.IntervalTest;
+package TestLearn.problemPractice.IntervalTest;
 
 public class Interval {
     int start;

@@ -1,4 +1,4 @@
-package TestLearn.stringTestPkg;
+package TestLearn.problemPractice.stringTestPkg;
 
 public class CountWords {
     public static void main(String[] args) {
